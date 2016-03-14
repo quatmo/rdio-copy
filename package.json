@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A copy of rdio official website.",
   "scripts": {
-    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --quiet"
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot"
   },
   "repository": {
     "type": "git",
@@ -13,11 +13,20 @@
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
     "html-loader": "^0.4.3",
     "node-sass": "^3.4.2",
     "sass-loader": "^3.2.0",
     "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "jquery.stellar": "^0.6.2",
+    "normalize.css": "^3.0.3",
+    "skrollr": "^0.6.26",
+    "smoothscroll-for-websites": "^1.4.4"
   }
 }

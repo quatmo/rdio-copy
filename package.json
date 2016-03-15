@@ -25,9 +25,9 @@
   "dependencies": {
     "font-awesome": "^4.5.0",
     "jquery": "^2.2.1",
-    "jquery.stellar": "^0.6.2",
     "normalize.css": "^3.0.3",
     "skrollr": "^0.6.26",
-    "smoothscroll-for-websites": "^1.4.4"
+    "smoothscroll-for-websites": "^1.4.4",
+    "unslider": "idiot/unslider"
   }
 }

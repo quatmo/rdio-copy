@@ -23,8 +23,4 @@ $(document).ready(function () {
         nav: false,
         arrows: false
     });
-
-    $(window).scroll(function () {
-        console.log($(window).scrollTop());
-    });
 });

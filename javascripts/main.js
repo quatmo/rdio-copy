@@ -1,4 +1,5 @@
 require('normalize.css');
+require('font-awesome/css/font-awesome.css');
 require('../scss/main.scss');
 
 require('smoothscroll-for-websites');
@@ -11,7 +12,7 @@ $(document).ready(function () {
         smoothScrolling: false
     });
 
-    $(window).scroll(function () {
-        console.log($(window).scrollTop())
-    })
+    //$(window).scroll(function () {
+    //    console.log($(window).scrollTop())
+    //});
 });

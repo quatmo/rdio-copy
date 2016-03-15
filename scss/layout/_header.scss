@@ -1,6 +1,70 @@
 @charset "UTF-8";
 
 .header {
-  height: 80px;
-  position: relative;
+    height: 80px;
+    position: relative;
+    .nav-left {
+        float: left;
+        height: 80px;
+        margin-left: 30px;
+        .btn-toggle-sidebar {
+            float: left;
+            margin-top: 24px;
+            margin-right: 10px;
+            border: none;
+            background: none;
+            color: #4A90E2;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .logo {
+            float: left;
+            width: 77px;
+            height: 31px;
+            margin-top: 21px;
+            margin-right: 10px;
+            background: url('../images/icons.png') 0 -1162px;
+            cursor: pointer;
+        }
+        .btn-login {
+            float: left;
+            line-height: 48px;
+            padding: 0 10px;
+            margin-top: 15px;
+            color: #4A90E2;
+            font-weight: 600;
+            cursor: pointer;
+            &:hover {
+                background-color: #0086CD;
+                color: #FFF;
+            }
+        }
+    }
+
+    .nav-right {
+        float: right;
+        .btn-signup {
+            float: left;
+            line-height: 80px;
+            padding: 0 24px;
+            color: #4A90E2;
+            font-weight: 600;
+            cursor: pointer;
+            &:hover {
+                background-color: #0086CD;
+                color: #fff;
+            }
+        }
+        .btn-fb-continue {
+            float: left;
+            line-height: 80px;
+            padding: 0 30px;
+            color: #fff;
+            background-color: #3b5998;
+            cursor: pointer;
+            &:hover {
+                background-color: #11275B;
+            }
+        }
+    }
 }

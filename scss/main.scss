@@ -7,9 +7,12 @@
 
 // base
 @import "base/reset";
+@import "base/base";
 @import "base/typography";
 
 // components
+@import "components/image-area";
+@import "components/text-area";
 @import "components/button";
 
 // layouts

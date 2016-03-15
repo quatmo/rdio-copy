@@ -6,31 +6,38 @@
     .section-1 {
         height: 810px;
         background-color: #fff;
-        .slider {
-            ul {
-                height: 810px;
-                li {
-                    height: 810px;
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    &:nth-child(1) {
-                        background-image: url('../images/Hero-Stations.jpg');
-                    }
-                    &:nth-child(2) {
-                        background-image: url('../images/Hero-Songs.jpg');
-                    }
-                    &:nth-child(3) {
-                        background-image: url('../images/Hero-Playlists.jpg');
-                    }
-                    &:nth-child(4) {
-                        background-image: url('../images/Hero-Albums.jpg');
-                    }
+        .sign-up {
+            position: absolute;
+            top: 568px;
+            left: 30px;
+            z-index: 9999;
+            .btn-fb-continue {
+                float: left;
+                line-height: 60px;
+                padding: 0 30px;
+                color: #fff;
+                background-color: #3b5998;
+                cursor: pointer;
+                &:hover {
+                    background-color: #11275B;
+                }
+                i {
+                    font-size: 24px;
+                    margin-right: 5px;
+                    position: relative;
+                    top: 2px;
                 }
             }
-
-            .text-area {
+            .btn-sign-up-with-email {
+                float: left;
+                line-height: 60px;
+                padding: 0 30px;
                 color: #fff;
+                background-color: #3f6cc9;
+                cursor: pointer;
+                &:hover {
+                    background-color: #11275B;
+                }
             }
         }
     }

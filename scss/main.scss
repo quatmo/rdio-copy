@@ -2,7 +2,6 @@
 
 // helpers
 @import "helpers/global-variables";
-@import "helpers/functions";
 @import "helpers/mixins";
 
 // base
@@ -11,9 +10,9 @@
 @import "base/typography";
 
 // components
+@import "components/slider";
 @import "components/image-area";
 @import "components/text-area";
-@import "components/button";
 
 // layouts
 @import "layout/header";

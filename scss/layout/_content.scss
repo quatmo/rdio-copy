@@ -30,8 +30,15 @@
         width: 100%;
         height: auto;
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 50%;
+        left: 50%;
+        width: auto;
+        height: auto;
+        max-height: none;
+        max-width: none;
+        min-height: 100%;
+        min-width: 100%;
+        transform: translate(-50%, -50%);
       }
     }
   }
@@ -59,8 +66,15 @@
         width: 100%;
         height: auto;
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 50%;
+        left: 50%;
+        width: auto;
+        height: auto;
+        max-height: none;
+        max-width: none;
+        min-height: 100%;
+        min-width: 100%;
+        transform: translate(-50%, -50%);
       }
     }
   }
@@ -88,8 +102,15 @@
         width: 100%;
         height: auto;
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 50%;
+        left: 50%;
+        width: auto;
+        height: auto;
+        max-height: none;
+        max-width: none;
+        min-height: 100%;
+        min-width: 100%;
+        transform: translate(-50%, -50%);
       }
     }
   }

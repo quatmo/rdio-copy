@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A copy of rdio official website.",
   "scripts": {
-    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot"
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot",
+    "prod": "node ./node_modules/webpack/bin/webpack.js -p"
   },
   "repository": {
     "type": "git",
@@ -12,7 +13,9 @@
   "author": "Chris Pan",
   "license": "MIT",
   "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
     "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
     "html-loader": "^0.4.3",
     "node-sass": "^3.4.2",
